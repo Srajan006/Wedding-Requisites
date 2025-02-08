@@ -38,10 +38,10 @@ const categories = [
 
 const ServicePage = () => {
   return (
-    <div className="p-6 grid gap-6 grid-cols-4">
+    <div className="boxes">
       {categories.map((category, index) => (
-        <div key={index} className="border p-2">
-          <h2 className="text-xl font-semibold mb-4 text-gray-800">{category.title}</h2>
+        <div key={index} className={`borders`}>
+          <h2 className="text-xl">{category.title}</h2>
           <div className="service-grid">
             {category.services.map((service, idx) => (
               <div key={idx} className="service">
