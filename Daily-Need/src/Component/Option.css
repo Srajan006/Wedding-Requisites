@@ -55,11 +55,11 @@
   margin-bottom: 2px;
 }
 
-/* Responsive adjustments */
 @media (max-width: 768px) {
   .service-container {
     grid-template-columns: 1fr;
   }
+
   .services-grid {
     grid-template-columns: repeat(2, 1fr);
   }
